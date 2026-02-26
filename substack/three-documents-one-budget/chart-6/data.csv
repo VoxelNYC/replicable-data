@@ -1,0 +1,7 @@
+Claim,Evidence,What's missing
+"Agency 992 is a ""holding account"" for unallocated savings","Observing that 992 carries large negative amounts at Preliminary that shrink by Adopted, while agency-level savings grow",OMB has never published this characterization
+Agency 99C in expense_budget = Agency 992 in initiatives,"Exact dollar match + both named ""Citywide Savings Initiatives""",No published crosswalk between numbering systems
+"BAS means ""prior plan savings promoted to baseline""",Observing that BAS entries match prior-vintage SAV entries from the same agency,No official definition of BAS beyond the code itself
+"SAV entries and SAVP/PEG/CSP entries double-count","Running SUM(fy1_amt) grouped by init_type shows identical totals for SAV vs PEG/CSP at every pub_date","No documentation warns about this; you discover it by aggregating"
+"The savings flag is a ""change-tracking layer"" carrying both cuts and restorations","Observing that positive savings-flagged entries fund acknowledged costs, not savings","OMB describes the flag only as marking ""savings initiatives"""
+"The negotiation curve (Preliminary → Executive → Adopted) compresses net toward zero",Comparing savings-flag totals across vintages for multiple fiscal years,This pattern is visible in the data but not described in any OMB publication
